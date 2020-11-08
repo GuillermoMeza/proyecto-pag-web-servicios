@@ -1,0 +1,95 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+@media(max-width:600px){
+	html{
+		font-size:100%;
+	}
+}
+
+@media(min-width:768px){
+	html{
+		font-size:112%;
+	}
+}
+
+@media(min-width:1280px){
+	html{
+		font-size:150%;
+	}
+}
+
+body{
+	background:#EBEDEF;
+}
+
+header, .principal, footer{
+	background:#fff;
+	width:90%;
+	margin:25px auto;
+}
+
+header nav{
+	background:#273746;
+	overflow:hidden;
+}
+
+header nav ul{
+	list-style:none;
+}
+
+header nav ul li{
+	float:left;
+}
+
+header nav ul li a{
+	padding:15px 30px;
+	display:block;
+	text-decoration:none;
+	color:#fff;
+}
+
+header nav ul li a:hover{
+	background-color:#2C3E50;
+}
+
+.principal .articulos{
+	width:69%;
+	margin-left:1%;
+	margin-bottom:1%;
+	float:right;
+	text-align:justify;
+	background-color:#fff;
+}
+
+.principal .contactos article{
+	width:69%;
+	margin-left:1%;
+	margin-bottom:1%;
+	text-align:justify;
+	background-color:#fff;
+}
+
+.principal .articulos article{
+	padding:10px;
+	margin-bottom:10px;
+}
+
+aside{
+	width:30%;
+	float:right;
+	background-color:#2ECC71;
+	padding:10px;
+	margin-bottom:10px;
+	box-sizing:border-box;
+	text-align:justify;
+}
+
+footer{
+	background-color:#000;
+	color:#fff;
+	clear:both;
+	text-align:center;
+}
